@@ -1,0 +1,68 @@
+﻿@model IEnumerable<HotelBooking.Models.Room>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_adminlayout.cshtml";
+    ViewBag.Title = "Tất cả các phòng";
+}
+@if (Model.Count() != 0)
+{
+    <h1>Tất cả các phòng</h1>
+    <div class="table-agile-info">
+        <div class="panel panel-default">
+            <div class="table-responsive">
+                <table class="table table-striped b-t b-light">
+                    <thead>
+                        <tr>
+                            <th>Tên phòng</th>
+                            <th>Giá</th>
+                            <th>Hình phòng</th>
+                            <th>Danh mục</th>
+                            <th>Hiển thị</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.room_name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.room_price)
+                                </td>
+                                <td>
+                                    <img src="~/public/uploads/room/@item.room_image" height="100" width="100">
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.category.category_name)
+                                </td>
+                                @if (item.room_status == 0)
+                                {
+                                    <td>
+                                        Ẩn
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        Hiện
+                                    </td>
+                                }
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.room_id">Chỉnh sửa</a> |
+                                    <a asp-action="Details" asp-route-id="@item.room_id">Chi tiết</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.room_id">Xóa</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h1>Hiện tại không có thông tin phòng</h1>
+}

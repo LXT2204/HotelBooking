@@ -1,0 +1,41 @@
+﻿@model HotelBooking.Models.CategoryRoom
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_adminlayout.cshtml";
+    ViewBag.Title = "Chỉnh sửa thông tin loại phòng";
+}
+
+<h1>Chỉnh sửa thông tin</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="category_id" />
+            <div class="form-group">
+                <label asp-for="category_name" class="control-label">Tên loại phòng</label>
+                <input asp-for="category_name" class="form-control" value="@Model.category_name"/>
+                <span asp-validation-for="category_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="category_desc" class="control-label">Mô tả loại phòng</label>
+                <textarea style="resize: none" rows="8" asp-for="category_desc" class="form-control" value="@Model.category_desc"></textarea>
+                <span asp-validation-for="category_desc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="category_status" class="control-label">Trạng thái</label>
+                <input asp-for="category_status" class="form-control" min="0" max="1" value="@Model.category_status" />
+                <span asp-validation-for="category_status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay lại</a>
+</div>

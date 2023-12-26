@@ -1,0 +1,48 @@
+﻿@model HotelBooking.Models.Users
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_adminlayout.cshtml";
+    ViewBag.Title = "Thông tin người dùng";
+}
+
+<h1>Thông tin chi tiết người dùng</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Tên
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.name)
+        </dd>
+        <dt class="col-sm-2">
+            Email
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt class="col-sm-2">
+            Số điện thoại
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+        <dt class="col-sm-2">
+            Địa chỉ
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.address)
+        </dd>
+        <dt class="col-sm-2">
+            Ngày sinh
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.dob)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Quay lại</a>
+</div>

@@ -1,0 +1,657 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\admin_layout_blade.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\admin_layout_blade.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\admin_login.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\admin_login.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\font.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\font.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\jqvmap.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\jqvmap.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\minimal.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\minimal.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\monthly.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\monthly.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\morris.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\morris.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\style-responsive.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\css\\style.css",
+      "PackagePath": "staticwebassets\\public\\backend\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\public\\backend\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\close.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\close.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\mail.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\mail.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\minimal.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\minimal.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\nav-expand.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\nav-expand.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\next.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\pass.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\pass.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\prev.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\public\\backend\\images\\search-icon.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.dcjqaccordion.2.7.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.dcjqaccordion.2.7.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.fileupload.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.scrollTo.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.scrollTo.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.vmap.asia.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.vmap.asia.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.vmap.australia.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.vmap.australia.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.vmap.europe.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.vmap.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.vmap.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\jquery2.0.3.min.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\jquery2.0.3.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\monthly.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\monthly.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\morris.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\morris.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\raphael-min.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\script.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\script.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\backend\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\public\\backend\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\desktop.ini",
+      "PackagePath": "staticwebassets\\public\\desktop.ini"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\css\\animate.css",
+      "PackagePath": "staticwebassets\\public\\frontend\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\public\\frontend\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\public\\frontend\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\css\\main.css",
+      "PackagePath": "staticwebassets\\public\\frontend\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\public\\frontend\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\public\\frontend\\css\\price-range.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\public\\frontend\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\public\\frontend\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\public\\frontend\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\public\\frontend\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\public\\frontend\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\public\\frontend\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\404\\404.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\404\\404.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\blog\\socials.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\002955-01-PHS_Pool_Hero_mHQ-Park Hyatt Saigon.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\002955-01-PHS_Pool_Hero_mHQ-Park Hyatt Saigon.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\HETOL-removebg-preview.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\HETOL-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\InterContinental+Danang+Sun+Peninsula+Resort.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\InterContinental+Danang+Sun+Peninsula+Resort.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\Introducing-InterContinental-Danang-Danang-Private-Car.jpeg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\Introducing-InterContinental-Danang-Danang-Private-Car.jpeg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\Logo.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\Logo.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\WhatsApp-Image-2023-01-13-at-1.51.35-AM-800x450.jpeg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\WhatsApp-Image-2023-01-13-at-1.51.35-AM-800x450.jpeg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\best-hotels-in-vietnam-15.webp",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\best-hotels-in-vietnam-15.webp"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\bg_border.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\images.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\images.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\map.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\map.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\partner1.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\partner2.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\partner3.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\partner4.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\searchicon.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\z4866605058072_e7eef92aa32b93e8b7617d13d993bb0d.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\z4866605058072_e7eef92aa32b93e8b7617d13d993bb0d.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\home\\z4866610576128_7df18d9fc7008efaf1bee13f299a0e91.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\z4866610576128_7df18d9fc7008efaf1bee13f299a0e91.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\gem-suite-lake-view-room.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\gem-suite-lake-view-room.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\new.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\rating.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\ruby-street-view-room.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\ruby-street-view-room.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\share.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\swimming-pool.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\swimming-pool.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\contact.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\main.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\public\\frontend\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\15.png",
+      "PackagePath": "staticwebassets\\public\\uploads\\room\\15.png"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\Phòng 1.jpg",
+      "PackagePath": "staticwebassets\\public\\uploads\\room\\Phòng 1.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\test.jpg",
+      "PackagePath": "staticwebassets\\public\\uploads\\room\\test.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HotelBooking.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HotelBooking.props",
+      "PackagePath": "build\\HotelBooking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelBooking.props",
+      "PackagePath": "buildMultiTargeting\\HotelBooking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HotelBooking.props",
+      "PackagePath": "buildTransitive\\HotelBooking.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

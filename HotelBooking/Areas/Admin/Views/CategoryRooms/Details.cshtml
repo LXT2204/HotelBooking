@@ -1,0 +1,41 @@
+﻿@model HotelBooking.Models.CategoryRoom
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_adminlayout.cshtml";
+    ViewBag.Title = "Chi tiết loại phòng";
+}
+
+<h1>Chi tiết loại phòng</h1>
+
+<div>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Loại phòng
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.category_name)
+        </dd>
+        <dt class = "col-sm-2">
+            Mô tả loại phòng
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.category_desc)
+        </dd>
+        <dt class = "col-sm-2">
+            Trạng thái
+        </dt>
+        @if (Model.category_status == 0)
+        {
+            <dd>Ẩn</dd>
+        }
+        else
+        {
+            <dd>Hiện</dd>
+        }
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.category_id">Chỉnh sửa</a> |
+    <a asp-action="Index">Quay lại</a>
+</div>

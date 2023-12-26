@@ -1,0 +1,56 @@
+﻿@model IEnumerable<HotelBooking.Models.CategoryRoom>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_adminlayout.cshtml";
+    ViewBag.Title = "Danh sách loại phòng";
+}
+
+<div class="table-agile-info">
+    <div class="panel panel-default">
+        <div class="table-responsive">
+            <table class="table table-striped b-t b-light">
+                <thead>
+                    <tr>
+                        <th>
+                            Tên loại
+                        </th>
+                        <th>
+                            Mô tả
+                        </th>
+                        <th>
+                            Tình trạng
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.category_name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.category_desc)
+                            </td>
+                            @if (item.category_status == 0)
+                            {
+                                <td>Ẩn</td>
+                            }
+                            else
+                            {
+                                <td>Hiện</td>
+                            }
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.category_id">Chỉnh sửa</a> |
+                                <a asp-action="Details" asp-route-id="@item.category_id">Chi tiết</a> |
+                                <a asp-action="Delete" asp-route-id="@item.category_id">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
