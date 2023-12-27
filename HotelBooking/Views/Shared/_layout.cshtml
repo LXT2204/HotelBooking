@@ -99,8 +99,11 @@
                                     <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
                                     <li><a asp-action="Logout" asp-controller="Users"><i class="fa fa-lock"></i> Logout</a></li>
                                 }
-                                else{
-                                <li><a asp-action="Create" asp-controller="Users"><i class="fa fa-lock"></i> Login</a></li>}
+                                else
+                                {
+                                    <li><a href="/users/login"><i class="fa fa-lock"></i>Đăng nhập</a></li>
+                                    <li><a href="/users/create">Đăng ký</a></li>
+                                }
                             </ul>
                         </div>
                     </div>
@@ -278,36 +281,6 @@
                         </div>
                     </div>
                     <div class="col-sm-8">
-                        <div class="col-sm-3">
-                            <div class="video-gallery text-center">
-                                <a href="#">
-                                    <div class="iframe-img">
-                                        <img src="~/public/frontend/images/home/z4866605058072_e7eef92aa32b93e8b7617d13d993bb0d.jpg"
-                                             alt="" />
-                                    </div>
-                                    <!-- <div class="overlay-icon">
-                                     <i class="fa fa-play-circle-o"></i>
-                                    </div> -->
-                                </a>
-                                <p>Vương Thanh Linh</p>
-                                <h2>Mar 8 <sup>th</sup> 2003</h2>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="video-gallery text-center">
-                                <a href="#">
-                                    <div class="iframe-img">
-                                        <img src="~/public/frontend/images/home/z4866605058072_e7eef92aa32b93e8b7617d13d993bb0d.jpg"
-                                             alt="" />
-                                    </div>
-                                    <!-- <div class="overlay-icon">
-                                     <i class="fa fa-play-circle-o"></i>
-                                    </div> -->
-                                </a>
-                                <p>Hiếu</p>
-                                <h2>Mar 8 <sup>th</sup> 2003</h2>
-                            </div>
-                        </div>
                         <div class="col-sm-3">
                             <div class="video-gallery text-center">
                                 <a href="#">
