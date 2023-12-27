@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cEtnZshnI0KD5RC/ZNXLYJs8RZtExBxS834b8wXxdUU=",
+  "Hash": "sKReCLczcENBRwsGkJlgHoapLk3RdKPjvij83r1lotI=",
   "Source": "HotelBooking",
   "BasePath": "_content/HotelBooking",
   "Mode": "Default",
@@ -2696,6 +2696,44 @@
       "OriginalItemSpec": "wwwroot\\public\\frontend\\images\\home\\z4866610576128_7df18d9fc7008efaf1bee13f299a0e91.jpg"
     },
     {
+      "Identity": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\2.jpg",
+      "SourceId": "HotelBooking",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\",
+      "BasePath": "_content/HotelBooking",
+      "RelativePath": "public/frontend/images/product-details/2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\public\\frontend\\images\\product-details\\2.jpg"
+    },
+    {
+      "Identity": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\3.jpg",
+      "SourceId": "HotelBooking",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\",
+      "BasePath": "_content/HotelBooking",
+      "RelativePath": "public/frontend/images/product-details/3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\public\\frontend\\images\\product-details\\3.jpg"
+    },
+    {
       "Identity": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\gem-suite-lake-view-room.jpg",
       "SourceId": "HotelBooking",
       "SourceType": "Discovered",
@@ -3000,6 +3038,25 @@
       "OriginalItemSpec": "wwwroot\\public\\uploads\\room\\15.png"
     },
     {
+      "Identity": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\Abla.jpg",
+      "SourceId": "HotelBooking",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\",
+      "BasePath": "_content/HotelBooking",
+      "RelativePath": "public/uploads/room/Abla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\public\\uploads\\room\\Abla.jpg"
+    },
+    {
       "Identity": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\Phòng 1.jpg",
       "SourceId": "HotelBooking",
       "SourceType": "Discovered",
@@ -3036,6 +3093,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\public\\uploads\\room\\test.jpg"
+    },
+    {
+      "Identity": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\Thạch.jpg",
+      "SourceId": "HotelBooking",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\",
+      "BasePath": "_content/HotelBooking",
+      "RelativePath": "public/uploads/room/Thạch.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\public\\uploads\\room\\Thạch.jpg"
     }
   ]
 }

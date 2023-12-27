@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Room>
+@{
+    // define format VND
+    var format = System.Globalization.CultureInfo.GetCultureInfo("vi-VN");
+
+}
+@{
+
+    Layout = "~/Views/Shared/_layout.cshtml";
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="features_rooms">
+    <!--features_rooms-->
+
+    <h2 class="title text-center">DANH MỤC KHÁCH SẠN</h2>
+    @foreach (var room in Model)
+    {
+        <div class="col-sm-4">
+            <div class="product-image-wrapper">
+
+                <div class="single-products">
+                                            <a asp-action="Detail" asp-controller="Room" asp-route-Id="@room.room_id">
+
+                    <div class="productinfo text-center">
+                           
+                          
+
+                                <img src="~/public/uploads/room/@room.room_image " alt=""
+                                     height="200" width="200" />
+                                <h1 style="color: rgb(4, 49, 252)">@room.room_name</h1>
+
+                                <h2>   @String.Format(format, "{0:0,0,0}", @room.room_price) VNĐ/ Ngày</h2>
+
+
+                                <p>92-94 Hang Trong Street Hoan Kiem District, Hà Nội Việt Nam</p>
+                            
+
+                            <input type="submit" value="Đặt Phòng" class="btn btn-default add-to-cart"
+                                   data-id_room="@room.room_id" name="add-to-cart">
+                        
+
+
+                    </div>
+                    </a>
+
+                </div>
+
+                <div class="choose">
+                </div>
+            </div>
+        </div>
+    }
+</div><!--features_rooms-->

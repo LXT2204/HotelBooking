@@ -1,0 +1,129 @@
+﻿@using HotelBooking.Models.ViewModel
+@model CartItemViewModel
+@{
+}
+	<section id="cart_items">
+		<div class="container">
+			<div class="breadcrumbs">
+				<ol class="breadcrumb">
+				  <li><a href="{{URL::to('/')}}">Trang chủ</a></li>
+				  <li class="active">Đơn đặt phòng</li>
+				</ol>
+			</div>
+			<div class="table-responsive cart_info">
+			
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+							<td class="image">Hình ảnh</td>
+							<td class="description">Tên phòng</td>
+							<td class="Check_in">Checkin</td>
+							<td class="Check_out">Checkout</td>
+							<td class="quantity">Số ngày thuê</td>
+							<td class="total">Tổng Tiền</td>
+							<td></td>
+							
+
+						</tr>
+					</thead>
+					<tbody>
+					@if (Model.CartItems.Count > 0) {
+						@foreach (var item in Model.CartItems)
+						{
+							<tr>
+								<td class="cart_product">
+									<a href=""><img src="~/public/uploads/room/@item.image" height="90" width="90" alt="" /></a>
+								</td>
+								<td class="cart_description">
+									<h4>@item.RoomName</h4>
+							</td>
+							<td class="checkin">
+
+								<form action="{{URL::to('/update-cart-quantity-checkin')}}" method="POST">
+									{{ csrf_field() }}
+									<input class="cart_quantity_input" type="date" name="cart_qty_checkin" value="@item.Checkin"  >
+									
+									
+								</form>
+							</td>
+							<td class="checkout">
+								<form action="{{URL::to('/update-cart-quantity-checkout')}}" method="POST">
+									{{ csrf_field() }}
+									<input class="cart_quantity_input" type="date" name="cart_qty_checkout" value="@item.Checkout"  >
+									
+								</form>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">
+
+								@item.Price
+								</p>
+							</td>
+							<td >
+								<p class="cart_total_price">
+
+									@Model.CartItems.Where(x=>x.RoomId==@item.RoomId).Sum(x=>x.Quantity*x.Price).ToString()
+								</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href="{{URL::to('/delete-to-cart/'.$v_content->rowId)}}"><i class="fa fa-times"></i></a>
+							</td>
+							</tr>
+						
+					}
+					<tr>
+						<td>
+							Tổng Tiền: @Model.GrandTotal.ToString()
+						</td>
+					</tr>
+					}
+					else
+					{
+						<tr>
+							<td colspan="6">
+								<h4>Chưa có phòng đặt</h4>
+							</td>
+						</tr>
+					}
+
+				</tbody>
+				</table>
+			</div>
+		</div>
+	</section> <!--/#cart_items-->
+
+	<section id="do_action">
+		<div class="container">
+		
+			<div class="row">
+			
+				<div class="col-sm-6">
+					<div class="total_area">
+						<ul>
+							<li>Tổng <span>{{Cart::subtotal().' '.'vnđ'}}</span></li>
+							<li>Thuế <span>{{Cart::tax().' '.'vnđ'}}</span></li>
+							<li>Thành tiền <span>{{Cart::total(0).' '.'vnđ'}}</span></li>
+						</ul>
+						{{-- 	<a class="btn btn-default update" href="">Update</a> --}}
+						<?php
+                                   $customer_id = Session::get('customer_id');
+                                   if($customer_id!=NULL){ 
+                                 ?>
+                                  
+                                <a class="btn btn-default check_out" href="{{URL::to('/checkout')}}">Thanh toán</a>
+                                <?php
+                            }else{
+                                 ?>
+                                 
+                                 <a class="btn btn-default check_out" href="{{URL::to('/login-checkout')}}">Thanh toán</a>
+                                 <?php 
+                             }
+                                 ?>
+                                
+							
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/#do_action-->

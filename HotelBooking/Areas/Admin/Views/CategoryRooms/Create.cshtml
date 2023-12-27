@@ -15,7 +15,7 @@
             </header>
             <div class="panel-body">
                 <div class="position-center">
-                    <form asp-action="Create">
+                    <form asp-action="Create" asp-controller="Users" method="post">
                         <div class="form-group">
                             <label asp-for="category_name" class="control-label">Loại phòng</label>
                             <input asp-for="category_name" class="form-control" />
@@ -31,8 +31,8 @@
                         <div class="form-group">
                             <label asp-for="category_status">Trạng thái</label>
                             <select asp-for="category_status" class="form-control input-sm m-bot15">
-                                <option asp-for="category_status" value="0">Hiển thị</option>
-                                <option asp-for="category_status" value="1">Ẩn</option>
+                                <option asp-for="category_status" value="1">Hiển thị</option>
+                                <option asp-for="category_status" value="0">Ẩn</option>
                             </select>
                         </div>
 

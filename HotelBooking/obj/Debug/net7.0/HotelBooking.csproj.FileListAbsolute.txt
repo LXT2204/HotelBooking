@@ -2729,3 +2729,4 @@ D:\Study\Project\HTTPFRAMEWORK\HotelBooking\HotelBooking\obj\Debug\net7.0\refint
 D:\Study\Project\HTTPFRAMEWORK\HotelBooking\HotelBooking\obj\Debug\net7.0\HotelBooking.pdb
 D:\Study\Project\HTTPFRAMEWORK\HotelBooking\HotelBooking\obj\Debug\net7.0\HotelBooking.genruntimeconfig.cache
 D:\Study\Project\HTTPFRAMEWORK\HotelBooking\HotelBooking\obj\Debug\net7.0\ref\HotelBooking.dll
+D:\Study\Project\HTTPFRAMEWORK\HotelBooking\HotelBooking\obj\Debug\net7.0\HotelBooking.sourcelink.json

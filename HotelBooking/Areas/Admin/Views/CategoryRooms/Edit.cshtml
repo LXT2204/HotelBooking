@@ -25,9 +25,11 @@
                 <span asp-validation-for="category_desc" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="category_status" class="control-label">Trạng thái</label>
-                <input asp-for="category_status" class="form-control" min="0" max="1" value="@Model.category_status" />
-                <span asp-validation-for="category_status" class="text-danger"></span>
+                <label asp-for="category_status">Trạng thái</label>
+                <select asp-for="category_status" class="form-control input-sm m-bot15">
+                    <option asp-for="category_status" value="1">Hiển thị</option>
+                    <option asp-for="category_status" value="0">Ẩn</option>
+                </select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Lưu" class="btn btn-primary" />

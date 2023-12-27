@@ -565,6 +565,14 @@
       "PackagePath": "staticwebassets\\public\\frontend\\images\\home\\z4866610576128_7df18d9fc7008efaf1bee13f299a0e91.jpg"
     },
     {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\2.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\2.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\3.jpg",
+      "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\3.jpg"
+    },
+    {
       "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\frontend\\images\\product-details\\gem-suite-lake-view-room.jpg",
       "PackagePath": "staticwebassets\\public\\frontend\\images\\product-details\\gem-suite-lake-view-room.jpg"
     },
@@ -629,8 +637,16 @@
       "PackagePath": "staticwebassets\\public\\uploads\\room\\15.png"
     },
     {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\Abla.jpg",
+      "PackagePath": "staticwebassets\\public\\uploads\\room\\Abla.jpg"
+    },
+    {
       "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\Phòng 1.jpg",
       "PackagePath": "staticwebassets\\public\\uploads\\room\\Phòng 1.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\Thạch.jpg",
+      "PackagePath": "staticwebassets\\public\\uploads\\room\\Thạch.jpg"
     },
     {
       "Id": "D:\\Study\\Project\\HTTPFRAMEWORK\\HotelBooking\\HotelBooking\\wwwroot\\public\\uploads\\room\\test.jpg",

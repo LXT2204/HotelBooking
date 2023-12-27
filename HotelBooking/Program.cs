@@ -1,4 +1,5 @@
 using HotelBooking.Data;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,8 +16,14 @@ builder.Services.AddEntityFrameworkMySQL().AddDbContext<AppDBContext>(options =>
     options.UseMySQL(builder.Configuration.GetConnectionString("ApplicationConnection"));
 });
 
-
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.IsEssential = true;
+});
 var app = builder.Build();
+app.UseSession();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

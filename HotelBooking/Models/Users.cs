@@ -8,11 +8,21 @@ namespace HotelBooking.Models
     {
         [Key]
         public int id { get; set; }
+        [Required(ErrorMessage  ="Vui lòng không để trống")]
         public string name { get; set; }
+        [Required(ErrorMessage = "Vui lòng không để trống")]
+
         public string email { get; set; }
+        [Required(ErrorMessage = "Vui lòng không để trống")]
+
         public string password { get; set; }
+        [Required(ErrorMessage = "Vui lòng không để trống")]
+
         public string phone { get; set; }
+        [Required(ErrorMessage = "Vui lòng không để trống")]
+
         public string address { get; set; }
+
         public DateTime dob { get; set; }
     }
 }
