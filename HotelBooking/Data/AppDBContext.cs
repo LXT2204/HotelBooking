@@ -11,8 +11,8 @@ namespace HotelBooking.Data
         public DbSet<CategoryRoom> Categories { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Users> Users { get; set; }
-        public DbSet<Booking> Bookings { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
+        /*public DbSet<Booking> Bookings { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }*/
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
             base.OnConfiguring(builder);
