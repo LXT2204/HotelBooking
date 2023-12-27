@@ -1,0 +1,77 @@
+﻿@model IEnumerable<HotelBooking.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<h1>Tất cả đơn đặt phòng</h1>
+
+<p>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Số thứ tự
+            </th>
+            <th>
+                Tổng tiền
+            </th>
+            <th>
+                Tình trạng đặt phòng
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int i = 0;
+
+
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @{
+                        i = i + 1;
+
+                    }
+                    @i
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order_total)
+                </td>
+                <td>
+
+                    @if (item.order_status == 0)
+                    {
+                        <p>Đơn đặt phòng đang xử lý </p>
+                    }
+                    @if (item.order_status == 1)
+                    {
+                        <p>Đơn đặt phòng đã xác nhận </p>
+                    }
+                    @if (item.order_status == 2)
+                    {
+                        <p>Đơn đặt phòng đã hủy </p>
+                    }
+
+                </td>
+                @if (item.order_status == 0)
+                {
+                    <td>
+                        <form asp-action="Delete" asp-route-Id="@item.order_id">
+                        <input class="btn-danger" type="submit" value="Hủy đặt phòng" />
+                    </form>
+                </td>}
+            </tr>
+        }
+    </tbody>
+</table>
+
+

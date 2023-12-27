@@ -14,9 +14,11 @@ namespace HotelBooking.Controllers
         }
 
         public async Task<IActionResult> Index(int Id)
-        {
+		{
+			ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
+            ViewBag.UserName=HttpContext.Session.GetString("UserName");
 
-            if (Id == null) return RedirectToAction("Index");
+			if (Id == null) return RedirectToAction("Index");
             var roomsByCategory = _context.Rooms.Where(c => c.category_id == Id).Where(x=>x.room_status==1);
 
             return View(await roomsByCategory.OrderByDescending(c => c.category_id).ToListAsync()) ;

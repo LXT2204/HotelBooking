@@ -13,11 +13,15 @@ namespace HotelBooking.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+			ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
+			ViewBag.UserName = HttpContext.Session.GetString("UserName");
+			return View();
         }
         public async Task<IActionResult> Detail(int Id)
         {
-            if (Id == null) return RedirectToAction("Index");
+			ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
+			ViewBag.UserName = HttpContext.Session.GetString("UserName");
+			if (Id == null) return RedirectToAction("Index");
             var roomsById = _context.Rooms.Where(c => c.room_id == Id).FirstOrDefault();
 
             return View(roomsById);

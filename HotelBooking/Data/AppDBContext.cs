@@ -11,8 +11,9 @@ namespace HotelBooking.Data
         public DbSet<CategoryRoom> Categories { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Users> Users { get; set; }
-        /*public DbSet<Booking> Bookings { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }*/
+        public DbSet<OrderDetails> OrderDetails { get; set; }
+        public DbSet<Order> Orders {  get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
             base.OnConfiguring(builder);
@@ -27,6 +28,10 @@ namespace HotelBooking.Data
         public int getCategoryIdRoom(string categoryName)
         {
             return Categories.FirstOrDefault(c => c.category_name == categoryName).category_id;
+        }
+        public string getNameFromId(int userId)
+        {
+            return Users.FirstOrDefault(c => c.id == userId).name;
         }
     }
 }

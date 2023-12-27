@@ -94,9 +94,17 @@
                                     </div>
                                 </li>
                                 
-                                @if (TempData["User"] != null)
+                                @if (ViewBag.UserId != null)
                                 {
-                                    <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                                    <li style=" margin-top: 13px">Xin Chào @ViewBag.UserName !</li>
+                                    @if (ViewBag.Role == 0)
+                                    {
+                                        <li><a href="/admin/users">Admin Dashboard</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a asp-controller="Order"  asp-route-Id="@ViewBag.UserId"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                                    }
                                     <li><a asp-action="Logout" asp-controller="Users"><i class="fa fa-lock"></i> Logout</a></li>
                                 }
                                 else

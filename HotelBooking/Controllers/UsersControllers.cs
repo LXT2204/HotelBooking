@@ -27,7 +27,14 @@ namespace HotelBooking.Controllers
         [HttpGet("users/login")]
         public IActionResult Login()
         {
-            return View();
+            if (HttpContext.Session.GetInt32("UserId") == null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Index","Home");
+            }
         }
         [HttpPost("users/create"), ActionName("Create")]
         [ValidateAntiForgeryToken]
@@ -58,15 +65,24 @@ namespace HotelBooking.Controllers
             if (BCrypt.Net.BCrypt.Verify(model.password, userLogIn.password))
             {
                 var data = _context.Users.Where(c => c.email == model.email).ToList();
-                /*Session["FullName"] = data.FirstOrDefault().FirstName + " " + data.FirstOrDefault().LastName;
+				/*Session["FullName"] = data.FirstOrDefault().FirstName + " " + data.FirstOrDefault().LastName;
                 Session["Email"] = data.FirstOrDefault().Email;
                 Session["idUser"] = data.FirstOrDefault().idUser;*/
+				HttpContext.Session.SetInt32("UserId", data.FirstOrDefault().id);
+                HttpContext.Session.SetString("UserName", data.FirstOrDefault().name);
+                HttpContext.Session.SetInt32("UserRole", data.FirstOrDefault().user_role);
                 return RedirectToAction("Index", "Home");
             }
             else
-            {
+            { 
                 return RedirectToAction(nameof(Login));
             }
         }
-    }
+        public IActionResult Logout() {
+            HttpContext.Session.Clear();
+			return RedirectToAction(nameof(Login));
+
+		}
+
+	}
 }

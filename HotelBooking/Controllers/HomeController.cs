@@ -19,13 +19,19 @@ namespace HotelBooking.Controllers
         }
 
         public IActionResult Index()
-        { var rooms= _context.Rooms.Where(x=>x.room_status==1).ToList();
+        {
+			ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
+			ViewBag.UserName = HttpContext.Session.GetString("UserName");
+            ViewBag.Role = HttpContext.Session.GetInt32("UserRole");
+            var rooms= _context.Rooms.Where(x=>x.room_status==1).ToList();
             return View(rooms);
         }
 
         public IActionResult Privacy()
-        {
-            return View();
+		{
+			ViewBag.UserId = HttpContext.Session.GetInt32("UserId");
+			ViewBag.UserName = HttpContext.Session.GetString("UserName");
+			return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

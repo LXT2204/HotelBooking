@@ -21,5 +21,6 @@ namespace HotelBooking.Models
         [Required(ErrorMessage = "Vui lòng không để trống")]
 
         public string? address { get; set; }
+        public int user_role { get; set; }
     }
 }

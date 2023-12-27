@@ -123,32 +123,44 @@
         <h2>@Model.room_name</h2>
         <p>Mã ID: @Model.room_id</p>
         <img src="images/room-details/rating.png" alt="" />
-            <form asp-action="Create" asp-controller="OrderDetail" >
-          
-
-            <span>
-                <h3 style="color:orange">
-                    @String.Format("{0:0,0,0}", @Model.room_price) VNĐ/ Ngày
-                </h3>
-                <div>
-                    <label >Ngày Checkin: </label>
-                        <input name="qty_checkin" type="date" class="cart_room_qty_checkin" value="" />
+            <form asp-action="Order" asp-controller="Order">
+                <input name="room_id"  type="hidden" value="@Model.room_id"/>
+                <input name="room_name" type="hidden" value="@Model.room_name" />
+                <input name ="room_price" type="hidden" value="@Model.room_price" />
+                <input name="room_image" type="hidden" value="@Model.room_image" />
+                <span>
+                    <h3 style="color:orange">
+                        @String.Format("{0:0,0,0}", @Model.room_price) VNĐ/ Ngày
+                    </h3>
+                    <div>
+                        <label >Ngày Checkin: </label>
+                        <input name="checkin" type="date" class="cart_room_qty_checkin"/>
                     </div>
+                    <div>
+                        <label>Ngày Checkout: </label>
+                        <input name="checkout" type="date" class="cart_room_qty_checkout"/>
+                    </div>
+                </span>
+
                 <div>
-                    <label>Ngày Checkout: </label>
-                    <input name="qty_checkout" type="date" class="cart_room_qty_checkout" value="NULL" />
+                    @if (ViewBag.UserId != null)
+                    {
+                        <input type="submit" value="Đặt phòng" class="btn btn-primary btn-sm add-to-cart">
+                    }
+                    else
+                    {
+                        <a href="/users/login" class="btn btn-primary btn-sm add-to-cart" type="Button">Đăng nhập để đặt phòng</a>
+                    }
+                  
                 </div>
-            </span>
-            <div>
-                <input type="submit" value="Đặt phòng" class="btn btn-primary btn-sm add-to-cart" data-id_room="@Model.room_id" name="add-to-cart">
-            </div>
-        </form>
+
+            </form>
 
 
         <p><b>Tình trạng:</b> Còn phòng</p>
 
 
-            <a href=""><img src="images/room-details/share.png" class="share img-responsive" alt="" /></a>
+        <a href=""><img src="images/room-details/share.png" class="share img-responsive" alt="" /></a>
     </div>
     <!--/room-information-->
 </div>
